@@ -9,7 +9,13 @@ for menor que 2, retorne uma string vazia.
 
 def both_ends(s):
     # +++ SUA SOLUÇÃO +++
-    return
+    
+    # pythonyist way
+    return "" if len(s) < 2 else s[:2] + s[-2:] 
+
+    # if len(s) < 2:
+    #     return ""
+    # return s[:2] + s[-2:]
 
 
 # --- Daqui para baixo são apenas códigos auxiliáries de teste. ---
